@@ -1,3 +1,4 @@
+//M-1
 bool isSafe(string a, string b) {
         int freq[26] = {0};
         for(int i = 0; i < a.length(); i++) {
@@ -26,3 +27,24 @@ bool isSafe(string a, string b) {
     
         return ans;
     }
+
+//M-2    
+int minRepeats(string A, string B) {
+        // code here
+        string s = A;
+        int ans=1;
+        while(s.length()<B.length()){
+            s+=A;
+            ans++;
+        }
+        if(s.find(B)!=-1){
+            return ans;
+        }
+        s+=A;
+        ans++;
+        if(s.find(B)!=-1){
+            return ans;
+        }
+        return -1;
+    }
+    
