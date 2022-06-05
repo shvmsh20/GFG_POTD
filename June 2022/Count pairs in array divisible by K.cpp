@@ -13,4 +13,4 @@ long long countKdivPairs(int a[], int n, int k)
             mp[rem]++;
         }
         return count;
-    }
+    }   
