@@ -13,3 +13,4 @@ vector<int> leftSmaller(int n, int a[]){
         }
         return res;
     }
+    
