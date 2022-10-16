@@ -11,3 +11,4 @@ ListNode *moveToFront(ListNode *head){
         prev->next = nullptr;
         return curr;
     }
+    
