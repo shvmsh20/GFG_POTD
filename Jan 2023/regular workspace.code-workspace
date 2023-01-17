@@ -1,0 +1,47 @@
+{
+  "folders": [
+	{
+		"name": "Striver-180-soln",
+		"path": "../../Striver-180-soln"
+	},
+	{
+		"name": "GFG_POTD",
+		"path": ".."
+	},
+	{
+		"name": "Leetcode Daily",
+		"path": "../../Leetcode Daily"
+	},
+	{
+		"name": "covid-19-tracker",
+		"path": "../../covid-19-tracker"
+	},
+	{
+		"name": "netflix_clone",
+		"path": "../../netflix_clone"
+	},
+	{
+		"name": "District State Lookup",
+		"path": "../../District State Lookup"
+	},
+	{
+		"name": "Nokia Clone",
+		"path": "../../Nokia Clone"
+	},
+	{
+		"path": "../../OPPS Love Babbar"
+	},
+	{
+		"path": "../../shvmsh20 sheet"
+	}
+],
+  "settings": {
+    "files.associations": {
+      "iostream": "cpp",
+      "bitset": "cpp",
+      "chrono": "cpp",
+      "algorithm": "cpp",
+      "ostream": "cpp"
+    }
+  }
+}
