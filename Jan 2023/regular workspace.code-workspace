@@ -27,6 +27,9 @@
 	{
 		"name": "Nokia Clone",
 		"path": "../../Nokia Clone"
+	},
+	{
+		"path": "../../Namaste js"
 	}
 ],
   "settings": {
@@ -36,6 +39,7 @@
       "chrono": "cpp",
       "algorithm": "cpp",
       "ostream": "cpp"
-    }
+	},
+	"liveServer.settings.multiRootWorkspaceName": "Namaste js"
   }
 }
