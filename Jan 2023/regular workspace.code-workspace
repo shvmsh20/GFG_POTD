@@ -29,7 +29,7 @@
 		"path": "../../Nokia Clone"
 	},
 	{
-		"path": "../../Namaste js"
+		"path": "../../Assignment-1"
 	}
 ],
   "settings": {
@@ -40,6 +40,6 @@
       "algorithm": "cpp",
       "ostream": "cpp"
 	},
-	"liveServer.settings.multiRootWorkspaceName": "Namaste js"
+	"liveServer.settings.multiRootWorkspaceName": "Assignment-1"
   }
 }
