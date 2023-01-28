@@ -27,6 +27,9 @@
 	{
 		"name": "Nokia Clone",
 		"path": "../../Nokia Clone"
+	},
+	{
+		"path": "../../Assignment-2"
 	}
 ],
   "settings": {
@@ -37,6 +40,6 @@
       "algorithm": "cpp",
       "ostream": "cpp"
 	},
-	"liveServer.settings.multiRootWorkspaceName": "Assignment-1"
+	"liveServer.settings.multiRootWorkspaceName": "Assignment-2"
   }
 }
