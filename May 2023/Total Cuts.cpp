@@ -14,3 +14,4 @@ int totalCuts(int N,int K,vector<int> &A){
         }
         return ans;
     }
+    
