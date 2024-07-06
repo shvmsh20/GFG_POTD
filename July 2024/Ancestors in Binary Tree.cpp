@@ -20,3 +20,4 @@ Node* solve(Node *root, int target,vector<int>&ans){
         Node* a=solve(root,target,ans);
         return ans;
     }
+    
