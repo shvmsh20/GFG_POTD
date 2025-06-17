@@ -18,6 +18,7 @@ string caseSort(string& str) {
             if(str[i] >= 'a' && str[i] <= 'z')
                 res += lo[l++];
             else
+            
                 res += up[u++];
         }
         return res;
