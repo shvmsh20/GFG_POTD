@@ -1,0 +1,45 @@
+class Solution {
+  public:
+    int largestArea(int n, int m, vector<vector<int>> &arr) {
+        // code here
+        int k = arr.size();
+		
+		vector<int> row(n, 0);
+		vector<int> col(m, 0);
+		
+		for (auto &a: arr) {
+			
+			row[a[0] - 1] = 1;
+			col[a[1] - 1] = 1;
+		}
+		
+		int prev = -1;
+		int maxi_row = 0;
+		for (int i = 0; i < n; i++) {
+			if (row[i] == 0)
+				continue;
+			
+			maxi_row = max(maxi_row, i - prev - 1);
+			prev = i;
+			
+		}
+		
+		maxi_row = max(maxi_row, n - prev - 1);
+		
+		prev = -1;
+		int maxi_col = 0;
+		
+		for (int i = 0; i < m; i++) {
+			if (col[i] == 0)
+				continue;
+			
+			maxi_col = max(maxi_col, i - prev - 1);
+			prev = i;
+			
+		}
+		
+		maxi_col = max(maxi_col, m - prev - 1);
+		
+		return maxi_col * maxi_row;
+    }
+};
