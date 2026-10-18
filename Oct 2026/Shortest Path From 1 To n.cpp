@@ -1,0 +1,18 @@
+ int minimumStep(int n) {
+        // code here
+        vector<int> dp(n + 1, INT_MAX);
+				dp[n] = 0;
+				int next;
+				for (int i = n - 1; i>0; i--) {
+					next = i + 1;
+					if (next <= n)
+						dp[i] = min(dp[i], dp[next] + 1);
+
+					next = i * 3;
+
+					if (next <= n)
+						dp[i] = min(dp[i], dp[next] + 1);
+
+				}
+				return dp[1];
+    }
